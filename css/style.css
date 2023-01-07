@@ -6,20 +6,13 @@
 
 /*Header*/
 
-.bg-cover-img{
-  
-  
-  left: 0px;
-  top: 0px;
-}
-
 .header-contant{
   position: relative;
   background-image: url(../images/banner/banner3.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 808px;
+  height: 790px;
   text-align: right;
 }
 
@@ -149,14 +142,44 @@
   color: #737272;
 }
 
+/*Mindset-box*/
+.mindset-box{
+  margin: 130px 230px;
+  background-image: url(../images/gradient1.png),url(../images/watch.png);
+  background-repeat: no-repeat,no-repeat;
+  background-size: cover,cover;
+  border-radius: 5px;
+  box-shadow: 5px 10px 8px black;
+}
+
+.mindset-title{
+  padding-top: 59px;
+  padding-left: 55px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.call-now-btn{
+  margin-left: 55px;
+  margin-bottom: 59px;
+  width: 160px;
+  height: 64px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #005FAC;
+}
 
 /*footer*/
 
 .footer{
   display: flex;
-  padding: 130px 220px;
   justify-content: space-between;
-  background-color: #151414;;
+  padding: 130px 220px;
+  background: #151414;
 }
 
 .footer-title{
@@ -169,4 +192,48 @@
 .future-description{
   font-size: 16px;
   color: #FFFFFF;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-img{
+  padding-top: 10px;
+}
+
+.contact-img a{
+  text-decoration: none;
+}
+
+.contact-img a img{
+  padding-right: 15px;
+}
+
+form .input-field{
+  margin-top: 20px;
+}
+
+form .input-field input{
+  height: 4rem;
+  width: 18rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #151414;
+}
+
+form .subcribe-btn input{
+  height: 4rem;
+  width: 9rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #005FAC;
+  text-align: center;
+  margin-top: 20px;
 }
